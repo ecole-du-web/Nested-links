@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nested links</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Erreur, on ne peut pas imbriquer les liens par défaut. -->
+
+    <!-- <a href="#article">
+        <p>Du contenu</p>
+        <a href="#linkA">En savoir plus</a>
+        <a href="#linkB">#js</a>
+        <a href="#linkC">#css</a>
+    </a>
+    -->
+
+    <!-- Sans animation -->
+    <div class="article-card">
+      <a href="#article" class="wrapper-link" aria-label="Comment utiliser les CSS modules ?"></a>
+      <p class="article-title">Comment utiliser les CSS modules ? 🎨</p>
+      <p class="article-content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquid
+        amet rem error dolor ab deserunt, officia, recusandae maxime inventore
+        et pariatur facilis commodi suscipit...
+      </p>
+      <div class="tags-container">
+        <a href="#css" class="tag css">#css</a>
+        <a href="#js" class="tag js">#js</a>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
