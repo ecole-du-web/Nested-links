@@ -2,7 +2,7 @@
 
 **Bonjour tout le monde.** 👋
 
-🔗 Lien vers la vidéo : https://youtu.be/nSAgJr-qlXE
+🔗 Lien vers la vidéo : [Lien vers la vidéo](https://youtu.be/nSAgJr-qlXE)
 
 Deux choix s'offrent à vous :
 
